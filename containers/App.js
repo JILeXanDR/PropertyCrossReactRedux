@@ -1,10 +1,10 @@
 import React from 'react'
 import { browserHistory, Router, Route, IndexRoute } from 'react-router'
-import MainPage from '../containers/MainPage';
-import FavoritesPage from '../containers/FavoritesPage';
-import Error404 from '../containers/Error404';
-import DetailsPage from '../containers/DetailsPage';
-import Site from '../containers/Site';
+import MainPage from './MainPage';
+import FavoritesPage from './FavoritesPage';
+import Error404 from './Error404';
+import DetailsPage from './DetailsPage';
+import Site from './Site';
 
 export default () => (
     <Router history={browserHistory}>

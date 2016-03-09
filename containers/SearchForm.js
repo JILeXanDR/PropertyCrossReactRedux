@@ -1,6 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { addTodo, myLocation, searchByText } from '../actions'
+import * as searchActions from '../actions/search'
+import { searchLocations } from '../actions/searchLocations'
 import Button from '../components/Button'
 
 let SearchForm = ({ dispatch }) => {
@@ -15,7 +17,7 @@ let SearchForm = ({ dispatch }) => {
             return
         }
 
-        dispatch(searchByText(input.value));
+        dispatch(searchLocations(input.value));
         input.value = '';
     };
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import AddTodo from '../containers/SearchForm'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import VisibleTodoList from '../containers/SearchList'
 import { browserHistory, Router, Route, Link } from 'react-router'
 import Header from '../components/Header';
 import Favorites from 'FavoritesList';

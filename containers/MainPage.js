@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import SearchForm from '../containers/SearchForm'
-import SearchList from '../containers/VisibleTodoList'
+import SearchList from '../containers/SearchList'
 import Header from '../components/Header'
 import Button from '../components/Button'
 
